@@ -1,0 +1,278 @@
+@font-face {
+  font-family: "BMJUA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.back_bottom {
+  background-image: url("/asset/image/list/detail_back.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  word-break: keep-all;
+
+  .contents_1 {
+    width: 100%;
+
+    .contents_1_text {
+      li:nth-of-type(1) {
+        font-family: "BMJUA";
+        font-size: 2rem;
+        font-weight: 400;
+
+        span {
+          margin-left: 10px;
+          color: rgb(181 181 181 / 80%);
+        }
+        span::before {
+          content: "#";
+        }
+      }
+
+      li:nth-of-type(1)::before {
+        content: "#";
+      }
+
+      li:nth-of-type(2) {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: baseline;
+        margin-bottom: 10px;
+
+        > p {
+          width: 65%;
+          font-size: 2.4rem;
+          font-weight: 600;
+        }
+        > div {
+          width: 35%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          p {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-right: 5%;
+          }
+          button {
+            width: 26px;
+          }
+        }
+      }
+    }
+
+    .contents_1_detail_img {
+      width: 100%;
+      margin-bottom: 5%;
+
+      img {
+        width: 100%;
+        border-radius: 30px;
+      }
+    }
+  }
+
+  .contents_1_address_back {
+    width: 100%;
+    .contents_1_address {
+      li {
+        width: 100%;
+        display: flex;
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 2%;
+        > div {
+          width: 120px;
+          display: flex;
+          > div {
+            width: 20%;
+            height: 20%;
+            margin-right: 15px;
+          }
+          img {
+            width: 100%;
+          }
+
+          p {
+            width: 100%;
+          }
+        }
+        p {
+          width: 80%;
+        }
+      }
+      li:nth-of-type(4) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        margin-top: 20px;
+        span {
+          margin-bottom: 10px;
+          font-size: 1.6rem;
+          border-radius: 20px;
+          background: rgba(255, 255, 255, 0.6);
+          margin-right: 2%;
+          padding: 1% 2%;
+          text-align: center;
+        }
+
+        span::before {
+          content: "#";
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.contents_2 {
+  padding-top: 40px;
+  background-color: #ffe6b2;
+}
+
+@media screen and (max-width: 480px) {
+  @font-face {
+    font-family: "BMJUA";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .back_bottom {
+    background-image: url("/asset/image/list/detail_back.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    word-break: keep-all;
+
+    .contents_1 {
+      width: 100%;
+
+      .contents_1_text {
+        li:nth-of-type(1) {
+          font-family: "BMJUA";
+          font-size: 1.8rem;
+          font-weight: 400;
+           span {
+          margin-left: 10px;
+          color: rgb(181 181 181 / 80%);
+        }
+        span::before {
+          content: "#";
+        }
+        }
+
+        li:nth-of-type(1)::before {
+          content: "#";
+        }
+
+        li:nth-of-type(2) {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          align-items: flex-end;
+          margin-bottom: 10px;
+          > p {
+            width: 65%;
+            font-size: 2rem;
+            font-weight: 600;
+          }
+          > div {
+            width: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            p {
+              font-size: 2rem;
+              font-weight: 500;
+              margin-right: 5%;
+            }
+            button {
+              width: 26px;
+            }
+          }
+        }
+      }
+
+      .contents_1_detail_img {
+        width: 100%;
+        margin-bottom: 2%;
+
+        img {
+          width: 100%;
+          border-radius: 30px;
+        }
+      }
+    }
+
+    .contents_1_address_back {
+      width: 100%;
+      .contents_1_address {
+        li {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          font-size: 2rem;
+          font-weight: 400;
+          margin-bottom: 10px;
+          > div {
+            width: 120px;
+            display: flex;
+            align-items: center;
+            > div {
+              width: 20%;
+              height: 20%;
+              margin-right: 15px;
+            }
+            img {
+              width: 100%;
+            }
+
+            p {
+              width: 100%;
+              font-weight: 500;
+              font-size: 1.9rem;
+            }
+          }
+          > p {
+            margin-bottom: 5px;
+            width: 100%;
+            font-size: 1.8rem;
+          }
+        }
+        li:nth-of-type(3) {
+          p {
+            margin-top: 5px;
+          }
+        }
+        li:nth-of-type(4) {
+          display: flex;
+          flex-direction: row;
+          margin-bottom: 0;
+          span {
+            margin-bottom: 10px;
+            font-size: 1.6rem;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.6);
+            margin-right: 2%;
+            padding: 1% 2%;
+            text-align: center;
+          }
+
+          span::before {
+            content: "#";
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .contents_2 {
+    background-color: #ffe6b2;
+  }
+}

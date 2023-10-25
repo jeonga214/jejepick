@@ -1,0 +1,95 @@
+.jejepick {
+  max-width: 640px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+.inner {
+  max-width: 640px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+#main{
+  // padding-bottom: .1px;
+}
+.on {
+  padding: 80px 0 100px 0;
+  // padding-top: 80px;
+}
+.no {
+  padding: 0;
+}
+
+
+
+.hidden {
+  display: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+p,
+h2,
+h3 {
+  margin: 0;
+}
+
+body {
+	position: relative;
+  // background-color: #ecf8fe;
+  background-color: #fff;
+}
+body::after {
+	transform: rotate(4deg);
+    content: "";
+    position: absolute;
+    top: 350px;
+    left: 8%;
+    z-index: -100;
+    display: block;
+    width: 290px;
+    height: 290px;
+    background-image: url('/asset/image/back_bbbb.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	animation: bb 2s infinite linear;
+}
+body::before {
+	transform: rotate(4deg);
+    content: "";
+    position: absolute;
+    top: 600px;
+    left: 15%;
+    z-index: -100;
+    display: block;
+    width: 250px;
+    height: 250px;
+    background-image: url('/asset/image/back_bbbb_2.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+	animation: bb 1s infinite linear;
+}
+
+@keyframes bb{
+	0%{ transform: translateY(0%);}
+	50%{ transform: translateY(10%) }
+	100%{ transform: translateY(-10%)}
+}
+
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: #fff;
+  }
+  body::after {
+    display: none;
+  }
+  body::before {
+    display: none;
+  }
+}

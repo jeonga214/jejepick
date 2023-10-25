@@ -1,0 +1,204 @@
+.membershipform {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 30px;
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+
+    margin-bottom: rem;
+    //뒤로가기 버튼 이미지
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 11px;
+      height: 22px;
+    }
+    //회원가입 제목
+    h2 {
+      font-size: large;
+      text-align: center;
+    }
+  }
+  //헤더 바로 아래 컨텐츠
+  .MScontents {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    img {
+    }
+    p {
+      color: #979797;
+      font-size: 16px;
+      margin: 1.5rem 2rem 0 0;
+      word-break: keep-all;
+    }
+  }
+  form {
+    b {
+      font-size: 1.5rem;
+      margin-top: 2%;
+    }
+    .Namecontents {
+      //이름 상단 제목
+      b {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+      //이름 입력 칸
+      .nameEnter {
+        width: 100%;
+        height: 55px;
+        border-radius: 10px;
+        background: #f6f6f6;
+        padding: 0 0 0 1rem;
+        border: 0px black solid;
+      }
+    }
+    .IDcontents {
+      .IDtxt {
+        margin: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        //아이디 상단 제목
+        b {
+        }
+        //아이디 버튼 클릭시 나올 글
+        p {
+            font-size: 1.3rem;
+        }
+      }
+      .IDifcont {
+        width: 100%;
+        height: 55px;
+        position: relative;
+        //아이디 입력칸
+        .IDEnter {
+          width: 100%;
+          height: 55px;
+          border-radius: 10px;
+          background: #f6f6f6;
+          padding: 0 0 0 1rem;
+          border: 0px black solid;
+        }
+        //아이디 중복 버튼
+        .IDduplication {
+          width: 90px;
+          height: 37px;
+          border-radius: 8px;
+          font-size: 12px;
+          background-color: #ffeb86;
+          cursor: pointer;
+          margin: 0 auto;
+          border: 0px black solid;
+          position: absolute;
+          right: 10px;
+          top: 15%;
+        }
+      }
+    }
+    .PWcontents {
+      .PWtxt {
+        margin: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        //비밀번호 상단 제목
+        b {
+        }
+        //비밀번호 상세메시지
+        p {
+        }
+      }
+      //비밀번호 입력칸
+      .PWEnter {
+        width: 100%;
+        height: 55px;
+        border-radius: 10px;
+        background: #f6f6f6;
+        padding: 0 0 0 1rem;
+        border: 0px black solid;
+      }
+      p {
+        color: white;
+      }
+    }
+    .PWrecontents {
+      .PWretxt {
+        margin: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        b {
+        }
+        p {
+          color: red;
+          font-size: 1.3rem;
+        }
+      }
+      //비밀번호 재확인 상단 제목
+      p {
+      }
+      //비밀번호 재확인칸
+      .PWreEnter {
+        width: 100%;
+        height: 55px;
+        border-radius: 10px;
+        background: #f6f6f6;
+        padding: 0 0 0 1rem;
+        border: 0px black solid;
+      }
+    }
+    .Numbercontents {
+      margin: 1rem 0;
+      margin-top: 4%;
+      //휴대폰 상단 제목
+      b {
+      }
+      //휴대폰 입력 칸
+      .numberEnter {
+        
+        >b{
+            display: inline-block;
+        }
+        margin: 1rem 0;
+        width: 100%;
+        height: 55px;
+        border-radius: 10px;
+        background: #f6f6f6;
+        padding: 0 0 0 1rem;
+        border: 0px black solid;
+        appearance: none;
+        
+      }
+    }
+    .Membershipbtn {
+      //버튼 위 상단 제목
+      text-align: center;
+      margin: 3.5rem 0;
+      display: flex;
+      flex-direction: column;
+      p {
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+      }
+      //회원가입 버튼
+      .membershipbtn {
+        width: 186px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 16px;
+        background-color: #ffeb86;
+        margin: 0 auto;
+        border: 0px black solid;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+

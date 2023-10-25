@@ -1,0 +1,94 @@
+.splash_bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/asset/image/IMG_pattern_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  .splash_logo {
+    width: 100%;
+    background-color: white;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > div {
+      width: 25%;
+      > img {
+        width: 100%;
+      }
+    }
+  }
+  .splash_balloon {
+    margin-top: 10%;
+    .splash_balloon1 {
+      > div {
+        width: 60%;
+        > img {
+          width: 100%;
+          animation: balloon1 1s forwards ;
+        }
+      }
+    }
+    .splash_balloon2 {
+      display: flex;
+      justify-content: flex-end;
+      > div {
+        width: 60%;
+        > img {
+          width: 100%;
+          opacity: 0;
+          animation: balloon2 1s 0.35s forwards ;
+        }
+      }
+    }
+  }
+}
+
+@keyframes balloon1 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(0%);
+    opacity: 100;
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  85% {
+    transform: rotate(-10deg);
+  }
+  95% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes balloon2 {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  60% {
+    transform: translateY(0%);
+    opacity: 100;
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  85% {
+    transform: rotate(-10deg);
+  }
+  95% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+    opacity: 100;
+  }
+}
+

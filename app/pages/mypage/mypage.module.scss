@@ -1,0 +1,272 @@
+
+
+.profile {
+	position: relative;
+	width: 100%;
+	height: 436px;
+	background: #FFE668;
+
+	.proback {
+		z-index: 50;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: url('/asset/image/mypage/patten.png');
+	}
+
+	.mytop {
+		position: relative;
+		z-index: 100;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 40px;
+
+		>div {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100px;
+			font-size: 2rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+	}
+
+	.procon {
+		position: relative;
+		z-index: 100;
+		text-align: center;
+		margin-top: 31px;
+		.procontop {
+			.myprofileimg{
+				margin: 0 auto;
+				position: relative;
+				width: 172px;
+				height: 172px;
+				border-radius: 50%;
+				overflow: hidden;
+				background-color: #ffaf66;
+				>img{
+				  position: absolute;
+				  top: 0;
+				  left: 0;
+				  width: 100%;
+				  height: 100%;
+				  object-fit: none;
+				}
+			  }
+			>div {
+				>p{
+					margin-top: 22px;
+					font-size: 1.8rem;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+
+				>h3{
+					margin-top: 7px;
+					font-size: 1.8rem;
+					font-style: normal;
+					font-weight: 700;
+					line-height: normal;
+				}
+			}
+		}
+
+		.proconbottom {
+			margin-top: 22px;
+
+			>span{
+				width: 77px;
+				height: 32px;
+				padding: 7px 13px;
+				font-size: 1.6rem;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				border-radius: 10px;
+				background: #FFF;
+				box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+				margin-right: 15px;
+			}
+			span::before{
+				content:'#';
+			}
+		}
+	}
+}
+
+.prolist {
+	margin-top: 42px;
+
+	.mypagecon1 {
+		.myevent {
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			width: 100%;
+			height: 103px;
+			border-radius: 10px;
+
+			.recom {
+				padding-left: 19px;
+				width: 100%;
+
+				>h4{
+					font-size: 2rem;
+					font-style: normal;
+					font-weight: 500;
+					line-height: normal;
+					margin-bottom: 11px;
+					word-break: keep-all;
+				}
+
+				>p{
+					font-size: 1.6rem;
+					font-style: normal;
+					font-weight: 500;
+					line-height: normal;
+				}
+			}
+
+			.jejeimg {
+				width: 50%;
+				height: 53.127px;
+				background: url('/asset/image/mypage/Group402.svg') no-repeat;
+				background-position-x: right;
+				margin-right: 25px;
+			}
+		}
+
+		.myevent:nth-of-type(1) {
+			background: #FFE7B2;
+			margin-bottom: 11px;
+		}
+
+		.myevent:nth-of-type(2) {
+			background: #B6D6CE;
+		}
+	}
+
+	.mycontopnav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 28px;
+		>h2 {
+			font-size: 2rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+		>p {
+			cursor: pointer;
+			font-size: 1.6rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+	}
+
+	.mypagecon2 {
+		// height: 170px;
+		.cont2_wrap {
+			display: flex;
+			justify-content: flex-start;
+			gap: 5%;
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+		.con2_item {
+			width: calc((100% - 40px) / 3);
+		}
+
+		.heartlistnone {
+			margin: 0 auto;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+			color: #F88561;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+
+		.heartlist {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.heartlist {
+				width: 188px;
+				height: 170px;
+				>h3{}
+				>div{}
+			}
+		}
+	}
+
+	.mypagecon3 {
+		.corselistnone {
+			cursor: pointer;
+			margin: 28px 0 40px 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #F88561;
+			font-size: 1.6rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			width: 100%;
+			height: 69px;
+			border-radius: 30px;
+			background: #FFF;
+			box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.10);
+		}
+
+		.corselist{
+			.corsename{}
+			.corsedel{}
+		}
+	}
+}
+
+.logout {
+	cursor: pointer;
+	margin: 0 auto 137px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 186px;
+	height: 50px;
+	border-radius: 30px;
+	background: #FFEB86;
+	color: #000;
+	font-size: 1.5rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+@media screen and (max-width: 480px) {
+	.jejeimg {
+		display: none;
+		width: 50%;
+		height: 53.127px;
+		background: url('/asset/image/mypage/Group402.svg') no-repeat;
+		background-position-x: right;
+		margin-right: 25px;
+	}
+}
+
+

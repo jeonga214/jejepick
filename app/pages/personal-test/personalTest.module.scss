@@ -1,0 +1,192 @@
+.jejepick {
+	width: 100%;
+	height: 100vh;
+	background: #FFE668;
+	position: relative;
+	.testbeforeback {
+		z-index: 50;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: url('/asset/image/test/patten2.png') center /100%;
+	}
+	.test {
+		cursor: pointer;
+		position: absolute;
+		z-index: 100;
+		margin-top: 88px;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		border-radius: 40px 40px 0px 0px;
+	}
+	.testcon {
+		width: 100%;
+		position: absolute;
+		z-index: 101;
+		margin-top: 88px;
+		.mar {
+			width: 100%;
+		}
+		.testcontop {
+			.testque {
+				margin: 63px 0 19px 0;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				>div {
+					display: inline-flex;
+					align-items: center;
+					>img {
+						margin-right: 7px;
+					}
+					>h2 {
+						display: inline-block;
+						font-size: 2rem;
+						font-style: normal;
+						font-weight: 500;
+						line-height: normal;
+					}
+				}
+				>p {
+					font-size: 1.6rem;
+					font-style: normal;
+					font-weight: 400;
+					line-height: normal;
+				}
+			}
+			.ing {
+				width: 100%;
+				margin-bottom: 50px;
+				>svg {
+					width: 100%;
+				}
+			}
+		}
+
+		.test_wrap {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-between;
+			.test_option {
+				width: calc((100% - 30px) / 2);
+				>figure {
+					cursor: pointer;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					&.active div {
+						box-shadow: 0 0 0 6px #FFA366 inset;
+					}
+					>figcaption {
+						font-size: 1.6rem;
+						font-weight: 400;
+						margin: 12px 0;
+						height: 40px;
+						word-break: keep-all;
+						text-align: center;
+					}
+				}
+				.option_img_wrap {
+					position: relative;
+					width: 100%;
+					// width: 100%;
+					// height: 215px;
+					border-radius: 20px;
+					>img {
+						width: 279px;
+						height: 215px;
+						position: relative;
+						z-index: -2;
+						object-fit: cover;
+						border-radius: 20px;
+					}
+
+					&::after {
+						content: '';
+						display: block;
+						width: 100%;
+						height: 100%;
+						position: relative;
+						padding-bottom: 70%;
+					}
+					img {
+						border-radius: 20px;
+						position: absolute;
+						top: 0;
+						left: 0;
+						display: block;
+						width: 100%;
+						height: 100%;
+						object-fit: cover;
+						object-position: center;
+					}
+				}
+			}
+		}
+		.next_btn {
+			width: 100%;
+			text-align: center;
+			.next {
+				cursor: pointer;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				margin: 50px auto 0;
+				padding: 16px 45px;
+				border: none;
+				border-radius: 30px;
+				background: #FFE668;
+				color: #000;
+				font-size: 1.5rem;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+				text-align: center;
+			}
+		}
+		.testbottom {
+			margin-top: -150px;
+			width: 100%;
+			height: 478.403px;
+			background: url('/asset/image/test/testingback.svg') no-repeat;
+			background-position-y: bottom;
+			background-size: contain;
+			background-color: white;
+		}
+	}
+}
+
+@media screen and (max-width:480px) {
+	.jejepick {
+		.test {
+			margin-top: 60px;
+		}
+		.testcon {
+			.testcontop {
+				.testque {
+					margin: 40px 0 19px 0;
+				}
+			}
+
+			.test_wrap {
+				.test_option {
+					width: calc((100% - 10px) / 2);
+					.option_img_wrap {
+						&::after {
+							padding-bottom: 80%;
+						}
+					}
+				}
+			}
+			.next_btn {
+				.next {
+					margin: 30px auto 0;
+				}
+			}
+		}
+	}
+}

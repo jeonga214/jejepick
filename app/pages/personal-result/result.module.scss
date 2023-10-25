@@ -1,0 +1,334 @@
+.testbefore{
+    width: 100%;
+    height: 932px;
+    background: #FFE668;
+    position: relative;
+    .testbeforeback{
+        z-index: 50;
+        position: absolute;
+        left: 0; top: 0;
+        width: 100%; height: 100%;
+        background: url('/asset/image/test/patten2.png');
+    }
+    .test{ 
+        cursor: pointer;
+        position: absolute;
+        z-index: 100;
+        margin-top: 88px;
+        width: 100%; height: 844px;
+        background-color: #fff;
+        border-radius: 40px 40px 0px 0px;
+    }
+    .result{
+        position: absolute;
+        left: 0; top: 154px;
+        z-index: 150;
+        width: 100%;
+        .resulttop{
+            >div{
+                text-align: center;
+                font-size: 1.6rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 8px;
+            }
+            .resultprofile{
+                width: 100%;
+                .propen{
+                    margin: 0 auto;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 2.2rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    width: 272.561px; height: 42px;
+                    background: url('/asset/image/test/label.svg') no-repeat;
+                    background-size: cover;
+                    margin-bottom: 33px;
+                }
+                .resultimg{
+                    margin: 0 auto 33px;
+                }
+                .tag{
+                    margin: 0 auto;
+                    width: 306px;
+                    >span{
+                        padding: 7px 13px;
+                        font-size: 1.6rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        border-radius: 10px;
+                        background: #FFD167;
+                        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+                        margin-right: 15px;
+                        color: #AC6638;
+                    }
+                    span::before{
+                        content:'#';
+                    }
+                }
+            }
+        }
+    }
+    .resultbottom{
+        margin-top: 42px;
+        padding: 50px 0;
+        width: 100%; height: 100%;
+        background: #FFF9DA;
+        text-align: center;
+        .resultcon{
+            padding: 0 70px;
+            margin-bottom: 38px;
+            .propencon{
+                >div{
+                    >img{
+                        margin-right: 18px;
+                    }
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    text-align: left;
+                    word-break: keep-all;
+                    font-size: 1.6rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 23px;
+                }
+                >div:nth-last-of-type(1){
+                    margin-bottom: 0 ;
+                }
+                
+            }
+            .mate{
+                margin-top: 38px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                word-break: keep-all;
+                >div{
+                    width: 47%;
+                    height: 185px;
+                    border-radius: 30px;
+                    >p{
+                        font-size: 1.4rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                    }
+                    >h4{
+                        margin-top: 4px;
+                        color: #313131;
+                        font-size: 1.6rem;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                    }
+                    >img{
+                        width: 95px; height: 95px;
+                        object-fit: contain;
+                    }
+                }
+                .bestmate{
+                    padding: 3%;
+                    background: #FFDF99;
+                }
+                .worstmate{
+                    padding: 3%;
+                    background: #B6D6CE;
+                }
+            }
+        }
+        .listmove{
+            cursor: pointer;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 186px;
+            height: 50px;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border-radius: 30px;
+            background: #FFD167;
+        }
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .testbefore{
+        width: 100%;
+        height: 932px;
+        background: #FFE668;
+        position: relative;
+        .testbeforeback{
+            z-index: 50;
+            position: absolute;
+            left: 0; top: 0;
+            width: 100%; height: 100%;
+            background: url('/asset/image/test/patten2.png');
+        }
+        .test{ 
+            cursor: pointer;
+            position: absolute;
+            z-index: 100;
+            margin-top: 88px;
+            width: 100%; height: 844px;
+            background-color: #fff;
+            border-radius: 40px 40px 0px 0px;
+        }
+        .result{
+            position: absolute;
+            left: 0; top: 154px;
+            z-index: 150;
+            width: 100%;
+            .resulttop{
+                >div{
+                    text-align: center;
+                    font-size: 1.6rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 8px;
+                }
+                .resultprofile{
+                    width: 100%;
+                    .propen{
+                        margin: 0 auto;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 2.2rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        width: 272.561px; height: 42px;
+                        background: url('/asset/image/test/label.svg') no-repeat;
+                        background-size: cover;
+                        margin-bottom: 33px;
+                    }
+                    .resultimg{
+                        margin: 0 auto 33px;
+                    }
+                    .tag{
+                        margin: 0 auto;
+                        width: 306px;
+                            >span{
+                            padding: 7px 13px;
+                            font-size: 1.6rem;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            border-radius: 10px;
+                            background: #FFD167;
+                            box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+                            margin-right: 15px;
+                            color: #AC6638;
+                            }
+                            span::before{
+                                content:'#';
+                            }
+                    }
+                }
+            }
+        }
+        .resultbottom{
+            margin-top: 42px;
+            padding: 50px 0;
+            width: 100%; height: 100%;
+            background: #FFF9DA;
+            text-align: center;
+            .resultcon{
+                padding: 0 20px;
+                margin-bottom: 38px;
+                .propencon{
+                    >div{
+
+                        >img{
+                            margin-right: 18px;
+                        }
+                        display: flex;
+                        
+                        align-items: center;
+                        justify-content: flex-start;
+                        text-align: left;
+                        word-break: keep-all;
+                        font-size: 1.6rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 23px;
+                    }
+                    >div:nth-last-of-type(1){
+                        margin-bottom: 0 ;
+                    }
+                    
+                }
+                .mate{
+                    margin-top: 38px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    word-break: keep-all;
+                    >div{
+                        width: 47%;
+                        height: 185px;
+                        border-radius: 30px;
+                        >p{
+                            font-size: 1.4rem;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        >h4{
+                            margin-top: 4px;
+                            color: #313131;
+                            font-size: 1.6rem;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                        >img{
+                            width: 95px; height: 95px;
+                            object-fit: contain;
+                        }
+                    }
+                    .bestmate{
+                        padding: 3%;
+                        background: #FFDF99;
+                    }
+                    .worstmate{
+                        padding: 3%;
+                        background: #B6D6CE;
+                    }
+                }
+            }
+            .listmove{
+                cursor: pointer;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 186px;
+                height: 50px;
+                font-size: 1.6rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                border-radius: 30px;
+                background: #FFD167;
+            }
+        }
+    }
+    
+
+
+}

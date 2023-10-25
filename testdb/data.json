@@ -1,0 +1,23 @@
+[
+    {
+        "questions" : "관광 여행시 나는?",
+        "options" : [["/asset/image/test/IMG_question1sight1.jpg","아 바로 말 타러 가야지","체험"],["/asset/image/test/IMG_question1sight2.jpg","제주도 경치를 보며 사색을 즐길래..","힐링"],["/asset/image/test/IMG_question1sight3.jpg","갈 곳이 많다! 만보기 2만보 도전!","맑음"],["/asset/image/test/IMG_question1sight4.jpg","제주도 문화 탐방 가보자고.","문화유적지"]]
+    },
+    {
+        "questions" : "숙소 선택시 나는?",
+        "options" : [["/asset/image/test/IMG_question2lodging1.jpg","숙소 정하는 것만 1시간 걸림","휴식"],["/asset/image/test/IMG_question2lodging2.jpg","누우면 거기가 바로 침대","휴식X"]]
+    },
+    {
+        "questions" : "내가 머물 숙소 근처는...",
+        "options" : [["/asset/image/test/question3_1.jpg","편의시설이 많을수록 좋아!","편의점"],["/asset/image/test/question3_2.jpg","조용한게 좋아","편의점X"]]
+    },
+    {
+        "questions" : "여행중 음식점을 가게 된다면?",
+        "options" : [["/asset/image/test/IMG_question4food1.webp","제주시내에 있는 유명한 맛집!","제주"],["/asset/image/test/IMG_question4food2.jpg","난 나를 믿어. 보이는 곳에 들어간다","제주X"]]
+    },
+    {
+        "questions" : "여행시 내가 원하는 이동수단은?",
+        "options" : [["/asset/image/test/IMG_question5move1.jpg","나는야 건강한 뚜벅이!","주차장X"],["/asset/image/test/IMG_question5move2.jpg","나는야 베스트드라이버!","주차장"]]
+    }
+    
+]

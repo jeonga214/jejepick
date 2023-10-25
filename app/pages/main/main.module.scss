@@ -1,0 +1,281 @@
+
+#main.on{
+	background-color: white;
+}
+
+.back {
+	margin-top: 140px;
+	width: 100%;
+	height: 0;
+	padding-top: calc(440 / 680 * 100%);
+	background-image: url("/asset/image/IMG_jejudo_bg.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	position: relative;
+	.contents_1 {
+		position: absolute;
+		top: -90px;
+		left: 0;
+
+		>div {
+			.contents_1_text_1 {
+				.contents_1_text_div {
+					display: inline;
+					padding: 1% 2.5%;
+					background-color: #ffd167;
+					border-radius: 5px;
+					font-size: 2rem;
+				}
+
+				>p {
+					margin-top: 2.5%;
+					font-size: 2.2rem;
+					font-weight: 600;
+					color: #181818;
+				}
+			}
+
+			.weather {
+				width: 100%;
+				display: flex;
+				justify-content: flex-end;
+
+				>div {
+					width: 80%;
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+
+					.weather_img {
+						width: 6.5%;
+						margin-right: 3%;
+
+						img {
+							width: 100%;
+						}
+					}
+
+					.weather_text_wrap {
+						line-height: 1;
+						font-family: "BMJUA";
+						font-size: 2.8rem;
+
+						.weather_text {
+							.tmp{
+								font-family: "yg-jalnan";
+							}
+							:last-child {
+								padding-left: 12px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.contents_2_3_bg{
+	background-color: #ccefed;
+
+	.contents_2 {
+		.contents_2_text_2 {
+			p:nth-of-type(1) {
+				font-size: 1.4rem;
+				font-weight: 400;
+			}
+
+			p:nth-of-type(2) {
+				font-size: 2rem;
+				font-weight: 600;
+			}
+
+			>div {
+				span {
+					margin-top:8px;
+					border-radius: 30px;
+					background-color: #ffffffb2;
+					font-size: 1.6rem;
+					font-weight: 500;
+					padding: 1.3% 3%;
+					display: inline-block;
+					&:not(:last-child) {
+						margin-right: 2%;
+					}
+				}
+			}
+		}
+	}
+}
+
+.contents_2_bestplacelist {
+	padding: 15px 0;
+	width: calc(100% + 10px );
+}
+
+// contents_3
+.contents_3 {
+	.text_wrap {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 10px;
+		h2 {
+			font-size: 2rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+		p {
+			cursor: pointer;
+			font-size: 1.6rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+		}
+	}
+	.course_wrap{
+		padding-bottom: 10px;
+		.corselistnone {
+			cursor: pointer;
+			margin: 28px 0 40px 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #F88561;
+			font-size: 1.6rem;
+			font-style: normal;
+			font-weight: 500;
+			line-height: normal;
+			width: 100%;
+			height: 69px;
+			border-radius: 30px;
+			background: #FFF;
+			box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.10);
+		}
+
+		.corselist{
+			.corsename{}
+			.corsedel{}
+		}
+	}
+}
+
+// --------------------------------------------------
+
+@media screen and (max-width: 480px) {
+	.back{
+		margin-top: 60px;
+		width: 100%;
+		height: 0;
+		padding-top: calc(440 / 680 * 100%);
+		background-image: url("/asset/image/IMG_jejudo_bg.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: center;
+		position: relative;
+	
+		.contents_1 {
+			position: absolute;
+			top: -40px;
+			left: 0;
+			>div {
+				.contents_1_text_1 {
+					.contents_1_text_div {
+						font-size: 1.8rem;
+					}
+					>p{
+						font-size: 2rem;
+					}
+				}
+	
+				.weather {
+					width: 100%;
+					display: flex;
+					justify-content: flex-end;
+					margin-top: 7%;
+					>div{
+						width: 80%;
+						display: flex;
+						justify-content: flex-end;
+						align-items: center;
+	
+						.weather_img {
+							width: 6.5%;
+							margin-right: 3%;
+	
+							img{
+								width: 100%;
+							}
+						}
+	
+						.weather_text_wrap {
+							font-size:1.9rem;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.contents_2_3_bg{
+		background-color: #ccefed;
+	
+		.contents_2 {
+			.contents_2_text_2 {
+				p:nth-of-type(1) {
+					font-size: 1.4rem;
+					font-weight: 400;
+				}
+	
+				p:nth-of-type(2) {
+					font-size: 2rem;
+					font-weight: 600;
+				}
+	
+				>div{
+					span {
+						border-radius: 30px;
+						background-color: #ffffffb2;
+						font-size: 1.6rem;
+						font-weight: 500;
+						padding: 1.3% 3%;
+						display: inline-block;
+						margin-top: 8px;
+						&:not(:last-child) {
+							margin-right: 2%;
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.contents_2_bestplacelist {
+		padding: 15px 0;
+	}
+	
+	// contents_3
+	.contents_3 {
+		.text_wrap {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-top: 10px;
+			h2 {
+				font-size: 2rem;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+			}
+			p {
+				cursor: pointer;
+				font-size: 1.6rem;
+				font-style: normal;
+				font-weight: 500;
+				line-height: normal;
+			}
+		}
+	}
+}
