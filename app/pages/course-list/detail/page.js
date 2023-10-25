@@ -157,7 +157,7 @@ export default function Home() {
 							"/asset/image/map/ICON_way_pin.svg",
 							"/asset/image/map/ICON_final_pin.svg",
 						];
-						let imageSize = new kakao.maps.Size(40, 51);
+						let imageSize = new kakao.maps.Size(35, 45);
 						function marker(title, position, n) {
 							console.log(n);
 							let image = new kakao.maps.MarkerImage(markerImg[n], imageSize);

@@ -84,7 +84,7 @@ function page() {
 					function createMarkerImage(imageUrl) {
 						return new window.kakao.maps.MarkerImage(
 							imageUrl,
-							new window.kakao.maps.Size(40, 51), // 마커 이미지 크기
+							new window.kakao.maps.Size(35, 45), // 마커 이미지 크기
 							{ offset: new window.kakao.maps.Point(15, 30) } // 마커 이미지의 중심 좌표 설정
 						);
 					}
