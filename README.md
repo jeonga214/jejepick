@@ -34,3 +34,32 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## git 수정시
+git clone 내주소
+git cd jejepick
+수정
+git branch -v (위치가 main이라고 뜨면 바로 git add .)
+git checkout -b main
+git add .
+git commit -m 'upload'
+git push origin main
+git에 업로드된거 확인후
+vercel에 들어가서 원래 jejepick삭제 후
+git에 있는 jejepick import
+Environment Variables에 .env파일 내용 복붙후 depoly하면 배포완료
+
+## next
+next활용
+npm run dev(실행)
+next build ⇒ 프로덕션 빌드 용도로 애플리케이션 빌드
+next start ⇒ Next.js 프로덕션 서버 시작
+수정할때 참고
+배포와 같은 환경으로 확인하려면 next build,next start 후 확인 
+
+## api 
+날씨-공공데이터포털에서 apikey 발급
+지도-카카오
+여행(숙소,맛집,관광지)-비짓제주api
+
+
