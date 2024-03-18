@@ -52,14 +52,6 @@ Environment Variables에 .env파일 내용 복붙후 depoly하면 배포완료
 ## next
 next활용
 npm run dev(실행)
-next build ⇒ 프로덕션 빌드 용도로 애플리케이션 빌드
-next start ⇒ Next.js 프로덕션 서버 시작
-수정할때 참고
-배포와 같은 환경으로 확인하려면 next build,next start 후 확인 
-
-## api 
-날씨-공공데이터포털에서 apikey 발급
-지도-카카오
-여행(숙소,맛집,관광지)-비짓제주api
+next build ⇒ 프로덕션 빌드 용도로 정
 
 
