@@ -55,8 +55,8 @@ npm run dev(실행)
 next build ⇒ 프로덕션 빌드 용도로 정
 
 ## api
-비짓제주 관광정보 제주도 관광/숙박/맛집 OPEN API
-기상청 단기예보 조회서비스 공공데이터포털-날씨 API
-카카오 지도 카카오 맵 RestAPI / Javascript
+비짓제주 관광정보 제주도 관광/숙박/맛집 OPEN API(https://www.visitjeju.net/kr/visitjejuapi)
+기상청 단기예보 조회서비스 공공데이터포털-날씨 API(https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15084084)
+카카오 지도 카카오 맵 RestAPI / Javascript(https://apis.map.kakao.com/)
 
 
